@@ -1,0 +1,86 @@
+h1{
+    position: relative;
+    background-color: rgb(227, 231, 240);
+    margin-top: -1px;
+    text-align: center;
+}
+img{
+    position: absolute;
+    margin-top: -22px;
+    width: 200px;
+}
+.noir{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}.bleu{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.rouge{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.jaune{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.vert{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.marron{
+    background-color: maroon;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.color{
+    display: flex;
+}
+
+.free{
+    position: absolute;
+    margin-top: 180px;
+}
+.Ready{
+    position: relative;
+    margin-top: 260px;
+}
+body{
+    border: 5px solid;
+    margin: 50px;
+    width: 900px;
+  
+    
+}
+h1::before{
+    content: "SALE";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    font-style: normal;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    border: px solid;
+    color: white;
+    padding: 20px;
+}
+       
